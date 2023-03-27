@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+.boxes h1
+{
+  margin-bottom: 30px;
+}
+.boxes
+{
+  border-radius: 5px;
+  border: 4px dotted #006dfc;
+  transform:scale(90%);
+  padding: 10px;
+  box-shadow: 1px 5px 5px 1px  #fdec000e;
+  width: 600px;
+  height: 200px;
+  transition: all 0.5s;
+  color: rgb(0, 183, 255);
+  background-color: rgba(0, 255, 255, 0.555);
+  cursor: pointer;
+}
+
+.boxes:hover{
+  box-shadow: 1px 4px 4px 4px  #0d0d0e62;
+  color: white;
+  background-color: black;
+  border: 4px dotted #ffffff;
+}
+.data
+{
+  display: flex;
+  flex-wrap: wrap;
+}
